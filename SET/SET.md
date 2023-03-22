@@ -56,7 +56,7 @@ print(set_4) #Output: {1, 2, 3, 4, 5, 6, 7, 8}
 print(set_1) #Output: {1, 2, 3, 4, 5, 6, 7, 8}
 ```
 
-![Set](SET/set-img.jpg)
+![Set](https://github.com/Dynara/cse212_tutorial_project/blob/268cd8db8898c708e47205d8e5864e99f17a738b/SET/set-img.jpg)
 
 Show only elements that are the same in two sets:
 ```python
