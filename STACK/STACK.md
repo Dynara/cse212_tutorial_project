@@ -25,7 +25,7 @@ Remove the item from the stack, using `pop()` :
  remove_item = stack.pop()
  ```
 
-![Stack]()
+![Stack](https://github.com/Dynara/cse212_tutorial_project/blob/22e666f9e99a3650945a9d846ce25cf5c73b952f/STACK/Stack-img.jpg)
 
 Return the size of the stack, using `len()` :
 ```python
@@ -151,4 +151,4 @@ Output:
 ```
 
 
-[Stack Solution](stack_problem_SOLVED.py) | [Home]()
+[Stack Solution](https://github.com/Dynara/cse212_tutorial_project/blob/ef7739d0986b2bde2646447b9130fa3171debfec/STACK/stack_problem_SOLVED.py) | [Home](https://github.com/Dynara/cse212_tutorial_project/blob/ef7739d0986b2bde2646447b9130fa3171debfec/README.md)
