@@ -18,7 +18,7 @@ Contact: srabbey@byui.edu
 
     - Problem to Solve
 
-2. [SET](SET/SET.md)
+2. [SET](https://github.com/Dynara/cse212_tutorial_project/blob/ef7739d0986b2bde2646447b9130fa3171debfec/SET/SET.md)
     - Introduction
 
     - Sets in Python
