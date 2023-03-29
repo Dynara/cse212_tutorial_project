@@ -151,4 +151,4 @@ Output:
 ```
 
 
-[Stack Solution](https://github.com/Dynara/cse212_tutorial_project/blob/ef7739d0986b2bde2646447b9130fa3171debfec/STACK/stack_problem_SOLVED.py) | [Home](https://github.com/Dynara/cse212_tutorial_project/blob/ef7739d0986b2bde2646447b9130fa3171debfec/README.md) | [SET](https://github.com/Dynara/cse212_tutorial_project/blob/22501e85cdc7cff803caf8595d4c676d2a4e4a7b/SET/SET.md) 
+[Stack Solution](https://github.com/Dynara/cse212_tutorial_project/blob/ef7739d0986b2bde2646447b9130fa3171debfec/STACK/stack_problem_SOLVED.py) | [Home](https://github.com/Dynara/cse212_tutorial_project/blob/ef7739d0986b2bde2646447b9130fa3171debfec/README.md) | [SET](https://github.com/Dynara/cse212_tutorial_project/blob/22501e85cdc7cff803caf8595d4c676d2a4e4a7b/SET/SET.md) | [TREE](https://github.com/Dynara/cse212_tutorial_project/blob/main/TREE/TREE.md)

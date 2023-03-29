@@ -169,4 +169,4 @@ lord_or_the_rings = {'Aragorn', 'Arwen', 'Elrond', 'Bilbo', 'Boromir', 'Gollum',
 
 
 [Set Solution](https://github.com/Dynara/cse212_tutorial_project/blob/b2389914a396edd5a90039e50f0c92b5edabaf37/SET/set_problem_SOLUTION.py) |  [Home](https://github.com/Dynara/cse212_tutorial_project/blob/b2389914a396edd5a90039e50f0c92b5edabaf37/README.md)
-| [STACK](https://github.com/Dynara/cse212_tutorial_project/blob/b2389914a396edd5a90039e50f0c92b5edabaf37/STACK/STACK.md) | [TREE]() 
+| [STACK](https://github.com/Dynara/cse212_tutorial_project/blob/b2389914a396edd5a90039e50f0c92b5edabaf37/STACK/STACK.md) | [TREE](https://github.com/Dynara/cse212_tutorial_project/blob/main/TREE/TREE.md)

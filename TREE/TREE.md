@@ -147,3 +147,10 @@ print(root.postorder_traversal(root))
 ## Example
 
 ## Problem to Solve
+
+
+
+
+
+
+[Tree Solution]() | [Home](https://github.com/Dynara/cse212_tutorial_project/blob/ef7739d0986b2bde2646447b9130fa3171debfec/README.md) | [SET](https://github.com/Dynara/cse212_tutorial_project/blob/22501e85cdc7cff803caf8595d4c676d2a4e4a7b/SET/SET.md) | [STACK](https://github.com/Dynara/cse212_tutorial_project/blob/main/STACK/STACK.md)
