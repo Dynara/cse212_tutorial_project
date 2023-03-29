@@ -26,6 +26,7 @@ This tree ends up looking more like a linked list and results in O(n).
 Unbalanced BST
 
 ## BST Operations
+
 **Initiate Tree**
 ```python
 class Node:
@@ -69,6 +70,35 @@ root.insert(10)
 root.print_tree()
 
 #Output: 2 5 10 12 15
+```
+
+**Find Height of Tree**
+
+```python
+def height(node):
+    if node is None:
+        return 0
+ 
+    else:
+        left_height = height(node.left)
+        right_height = height(node.right)
+ 
+        # Return larger height
+        if (left_height > right_height):
+            return left_height + 1 
+        else:
+            return right_height + 1
+
+root = Node(50)
+root.insert(15)
+root.insert(35)
+root.insert(10)
+root.insert(40)
+root.insert(5)
+root.insert(25)
+print(f'Height of tree is {height(root)}')
+ 
+# Output: Height of tree is 4
 ```
 
 ## **Traversing a Tree**
@@ -145,9 +175,87 @@ print(root.postorder_traversal(root))
 
 
 ## Example
+Finding the sum of all nodes.
+```python
+class Node:
+    def __init__(self, data):
+        self.left = None
+        self.right = None
+        self.data = data
+
+    def insert(self, data):
+    # Compare the new value with the parent node
+        if self.data:
+            if data < self.data:
+                if self.left is None:
+                    self.left = Node(data)
+                else:
+                    self.left.insert(data)
+            elif data > self.data:
+                if self.right is None:
+                    self.right = Node(data)
+                else:
+                    self.right.insert(data)
+        else:
+            self.data = data
+
+    # Finding the values in each subtree
+    def find_sum(self, Node):
+        if Node is None:
+            return 0
+        return Node.data + self.find_sum(Node.left) + self.find_sum(Node.right)
+
+root = Node(50)
+root.insert(15)
+root.insert(35)
+root.insert(10)
+root.insert(40)
+root.insert(5)
+root.insert(25)
+print(root.find_sum(root))
+
+# Output: 180
+```
+
 
 ## Problem to Solve
+Code `def find_value` to find if a specific value is in a subtree. After the inserting all of the nodes, write code to find if 40 and 75 is in the subtrees in separate print statements.
+```python
+class Node:
+    def __init__(self, data):
+        self.left = None
+        self.right = None
+        self.data = data
 
+    def insert(self, data):
+        # Compare the new value with the parent node
+        if self.data:
+            if data < self.data:
+                if self.left is None:
+                    self.left = Node(data)
+                else:
+                    self.left.insert(data)
+            elif data > self.data:
+                if self.right is None:
+                    self.right = Node(data)
+                else:
+                    self.right.insert(data)
+        else:
+            self.data = data
+
+    # Finding a specific value in the tree
+    def find_value(self, value):
+        pass
+
+root = Node(50)
+root.insert(15)
+root.insert(35)
+root.insert(10)
+root.insert(40)
+root.insert(5)
+root.insert(25)
+
+```
 
 
 
