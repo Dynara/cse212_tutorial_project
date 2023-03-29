@@ -27,12 +27,12 @@ Contact: srabbey@byui.edu
 
     - Problem to Solve
 
-3. TREE
-    - Introduction
+3. [TREE](https://github.com/Dynara/cse212_tutorial_project/blob/main/TREE/TREE.md)
+    - Types of Trees
 
-    - Different Binary Search Trees (BST)
+    - Tree Operations
 
-    - BST Operations
+    - Traverse Trees
 
     - Example
 
